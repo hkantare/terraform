@@ -16,9 +16,9 @@ In the following example, you can create a cs credentials:
 
 ```hcl
 resource "ibmcloud_cs_credentials" "credentials" {
-    softlayer_username = "test"
+	softlayer_username = "test"
 	softlayer_api_key = "h4njklkjln4frtg"
-    org_guid = "test"
+	org_guid = "test"
 	space_guid = "test_space"
 	account_guid = "test_acc"
 }
